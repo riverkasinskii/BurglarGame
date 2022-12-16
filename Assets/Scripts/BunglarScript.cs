@@ -28,7 +28,7 @@ public class BunglarScript : MonoBehaviour
     }
 
     /// <summary>
-    /// Ìåòîä ïåðåçàïóñêà èãðû
+    /// Метод перезапуска игры
     /// </summary>
     private void Restart()
     {        
@@ -46,7 +46,7 @@ public class BunglarScript : MonoBehaviour
     }
 
     /// <summary>
-    /// Ìåòîä îáíîâëåíèÿ òåêñòà ïî time òàéìåðà
+    /// Метод обновления текста по времени таймера
     /// </summary>
     private void UpdateTimeText()
     {
@@ -64,7 +64,7 @@ public class BunglarScript : MonoBehaviour
     }       
 
     /// <summary>
-    /// Ìåòîä äëÿ èçìåíåíèÿ çíà÷åíèÿ ïèíîâ
+    /// Метод для изменения значения пинов
     /// </summary>
     /// <param name="leftPin"></param>
     /// <param name="centerPin"></param>
@@ -92,7 +92,7 @@ public class BunglarScript : MonoBehaviour
     }
         
     /// <summary>
-    /// Ìåòîä ïðîâåðêè ïîáåäû
+    /// Метод проверки победы
     /// </summary>
     /// <param name="firstValue"></param>
     /// <param name="secondValue"></param>
@@ -106,7 +106,7 @@ public class BunglarScript : MonoBehaviour
     }
 
     /// <summary>
-    /// Ìåòîä ïðîâåðêè ïîðàæåíèÿ
+    /// Метод проверки поражения
     /// </summary>
     private void CheckLoseGame()
     {        
@@ -114,7 +114,7 @@ public class BunglarScript : MonoBehaviour
     }
 
     /// <summary>
-    /// Ìåòîä ïðîâåðêè ÷òîáû ïèíû íå âûõîäèëè çà íóæíûå ãðàíèöû
+    /// Метод проверки чтобы пины не выходили за нужные границы
     /// </summary>
     /// <param name="leftValue"></param>
     /// <param name="centerValue"></param>
@@ -137,7 +137,7 @@ public class BunglarScript : MonoBehaviour
     }
 
     /// <summary>
-    /// Ìåòîä äëÿ êíîïêè Çàíîâî
+    /// Метод для кнопки Заново
     /// </summary>
     public void OnClickRestart()
     {
@@ -145,7 +145,7 @@ public class BunglarScript : MonoBehaviour
     }
 
     /// <summary>
-    /// Ìåòîä äëÿ êíîïêè Ìîëîòîê
+    /// Метод для кнопки Молоток
     /// </summary>
     public void HammerButtonOnClick()
     {
@@ -153,7 +153,7 @@ public class BunglarScript : MonoBehaviour
     }
 
     /// <summary>
-    /// Ìåòîä äëÿ êíîïêè Äðåëü
+    /// Метод для кнопки Дрель
     /// </summary>
     public void DrillButtonOnClick()
     {
@@ -161,7 +161,7 @@ public class BunglarScript : MonoBehaviour
     }
 
     /// <summary>
-    /// Ìåòîä äëÿ êíîïêè Îòìû÷êà
+    /// Метод для кнопки Отмычка
     /// </summary>
     public void MasterKeyButtonOnClick()
     {
@@ -169,7 +169,7 @@ public class BunglarScript : MonoBehaviour
     }
 
     /// <summary>
-    /// Ìåòîä äëÿ êíîïêè íà÷àëà èãðû
+    /// Метод для кнопки начала игры
     /// </summary>
     public void OnClickHomeScreen()
     {
