@@ -59,7 +59,7 @@ public class BunglarScript : MonoBehaviour
         else
         {
             _timeLeft = 0;
-            
+            CheckLoseGame();
         }        
     }       
 
